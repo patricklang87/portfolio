@@ -80,3 +80,9 @@ h2 {
 p {
     font-family: 'Fira Sans', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    text-emphasis: none;
+    color: inherit;
+}
