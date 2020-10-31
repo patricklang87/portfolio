@@ -12,14 +12,22 @@ let pushNewInfo = (title, link, info, startDate, lastUpdate) => {
 	projArray.push(new ProjInfo(title, link, info, startDate, lastUpdate)); 
 }
 
-pushNewInfo("Spikhardt", "tbd", "A quiz on German adjectival endings written to practice working with the HTML DOM.", "July 2020", "July 2020");
+
+pushNewInfo("Sentence Assesser", "tbd", "An adaptation of Levenstein Distance, meant to calculate the minimum number word order changes needed in order to match a given form. Part of a project to design an automatic sentence scoring program. Written in Python.", "Oct 2020", "Oct 2020");
+
+pushNewInfo("Vocab List Bulider", "tbd", "A simple program that allows vocab words to be added to a database and then tested. Written in JavaScript to practice JSON, node.js, and database construction.", "Sept 2020", "Sept 2020")
 
 pushNewInfo("Battle Engine", "tbd", "A simple RPG battle engine designed to practice the use of objects in JavaScript. Features Beverly, Battle Bot, and a Pack of Wild Dogs.", "Sept 2020", "Sept 2020");
 
+pushNewInfo("Are you a Dweeb?", "tbd", "A quiz to determine whether you are a dweeb. Written quickly to practice radio buttons in the HTML DOM.", "Sept 2020", "Sept 2020");
+
+pushNewInfo("Familie Spikhardt in Frankfurt", "tbd", "A quiz on German adjectival endings written to practice working with the HTML DOM.", "July 2020", "July 2020");
+
+pushNewInfo("The Coveted Object", "tbd", "A MidLibs style game to practice using input boxes in HTML and JavaScript. My first independent project.", "June 2020", "June 2020");
+
 let gridDivs = "";
 
-let i;
-for (i = 0; i < projArray.length; i++) {
+for (let i = 0; i < projArray.length; i++) {
 	let gridDiv = `<div id="${projArray[i].title}" class="grid-item" href="${projArray[i].link}">
                     <h2>${projArray[i].title}</h2>
                     <p>${projArray[i].info}</p>

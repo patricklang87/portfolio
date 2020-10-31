@@ -34,7 +34,14 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }    
+  }  
+  
+#linkDiv {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #link-grid {
   display: grid;
@@ -50,6 +57,10 @@ body {
     margin: 1rem;
 }
 
+.grid-item p {
+    font-size: .75rem;
+}
+
 #footer {
     text-align: right;
     color: grey    
@@ -62,7 +73,8 @@ body {
 
 h2 {
     font-family: 'Alfa Slab One', cursive;
-    color: antiquewhite   
+    color: antiquewhite; 
+    font-size: 1.25rem;  
 }
 
 p {
