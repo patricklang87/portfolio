@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans&display=swap');
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+#banner {
+    font-size: 2rem;
+    background-color: hotpink;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+#info {
+    width: 56%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#nav-banner {
+    font-size: 1.5rem;
+    background-color: hotpink;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }    
+
+#link-grid {
+  display: grid;
+  width: 100%;
+  min-height: 1rem;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-item {
+    background-color: coral;
+    min-height: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#a {
+    grid-area: 1/ 1/ span 1/ span 4;  
+}
+
+#b {
+    grid-area: 1/ 5/ span 1/ span 4;  
+}
+
+#c {
+    grid-area: 1/ 9/ span 1/ span 4;    
+}
+
+#d {
+    grid-area: 2/ 1/ span 1/ span 4;   
+}
+
+#e {
+    grid-area:  2/ 5/ span 1/ span 4;   
+}
+
+#f {
+    grid-area:  2/ 9/ span 1/ span 4;   
+}
+
+#footer {
+    text-align: right;
+    color: grey    
+}
+
+.heading {
+    font-family: 'Alfa Slab One', cursive;
+    color: antiquewhite 
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    color: antiquewhite   
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
