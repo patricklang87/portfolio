@@ -16,20 +16,20 @@ pushNewInfo("Spikhardt", "tbd", "A quiz on German adjectival endings written to 
 
 pushNewInfo("Battle Engine", "tbd", "A simple RPG battle engine designed to practice the use of objects in JavaScript. Features Beverly, Battle Bot, and a Pack of Wild Dogs.", "Sept 2020", "Sept 2020");
 
-console.log(projArray);
-
 let gridDivs = "";
 
-for (let i in projArray) {
-	let gridDiv = `<div id="${title}" class="grid-item" href="${link}">
-                    <h2>${title}</h2>
-                    <p>${info}</p>
-                    <p>Start: ${startDate}</p>
-                    <p>Last Update: ${lastUpdate}</p>
+let i;
+for (i = 0; i < projArray.length; i++) {
+	let gridDiv = `<div id="${projArray[i].title}" class="grid-item" href="${projArray[i].link}">
+                    <h2>${projArray[i].title}</h2>
+                    <p>${projArray[i].info}</p>
+                    <p>Start: ${projArray[i].startDate}</p>
+                    <p>Update: ${projArray[i].lastUpdate}</p>
                 </div>`
-  gridDivs.concat(gridDiv);
+  gridDivs = gridDivs + gridDiv;
 }
 
-
+console.log(gridDivs);
+document.getElementById("link-grid").innerHTML = gridDivs;
 
 
