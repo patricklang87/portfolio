@@ -23,7 +23,7 @@ pushNewInfo("Are you a Dweeb?", "https://patricklang87.github.io/dweeb/", "A qui
 
 pushNewInfo("Familie Spikhardt in Frankfurt", "https://patricklang87.github.io/spikhardt/", "A quiz on German adjectival endings written to practice working with the HTML DOM.", "July 2020", "July 2020");
 
-pushNewInfo("The Coveted Object", "tbd", "A MidLibs style game to practice using input boxes in HTML and JavaScript. My first independent project. Link not yet available.", "June 2020", "June 2020");
+pushNewInfo("The Coveted Object", "https://patricklang87.github.io/coveted_object/", "A MidLibs style game to practice using input boxes in HTML and JavaScript. My first independent project.", "June 2020", "June 2020");
 
 let gridDivs = "";
 
