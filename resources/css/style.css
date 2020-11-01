@@ -55,6 +55,8 @@ body {
     min-height: 2rem;
     padding: 1rem;
     margin: 1rem;
+    min-width: 270px;
+    max-width: 310px;
 }
 
 .grid-item p {
@@ -85,4 +87,24 @@ a {
     text-decoration: none;
     text-emphasis: none;
     color: inherit;
+}
+
+@media only screen and (max-width: 773px) {
+    #banner {
+        font-size: 1.5rem;
+    }
+
+    #info {
+        width: 90%;
+    }
+
+    #link-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 1170px) and (min-width: 774px) {
+    #link-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

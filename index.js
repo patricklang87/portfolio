@@ -19,7 +19,7 @@ pushNewInfo("Vocab List Bulider", "tbd", "A simple program that allows vocab wor
 
 pushNewInfo("Battle Engine", "https://patricklang87.github.io/battle_engine/", "A simple RPG battle engine designed to practice the use of objects in JavaScript. Features Beverly, Battle Bot, and a Pack of Wild Dogs.", "Sept 2020", "Sept 2020");
 
-pushNewInfo("Are you a Dweeb?", "tbd", "A quiz to determine whether you are a dweeb. Written quickly to practice radio buttons in the HTML DOM. Link not yet available.", "Sept 2020", "Sept 2020");
+pushNewInfo("Are you a Dweeb?", "https://patricklang87.github.io/dweeb/", "A quiz to determine whether you are a dweeb. Written quickly to practice radio buttons in the HTML DOM.", "Sept 2020", "Sept 2020");
 
 pushNewInfo("Familie Spikhardt in Frankfurt", "https://patricklang87.github.io/spikhardt/", "A quiz on German adjectival endings written to practice working with the HTML DOM.", "July 2020", "July 2020");
 
