@@ -12,9 +12,9 @@ let pushNewInfo = (title, link, info, startDate, lastUpdate) => {
 	projArray.push(new ProjInfo(title, link, info, startDate, lastUpdate)); 
 }
 
-pushNewInfo("Reynholm Industries", "https://patricklang87.github.io/reynholm/", "A static welcome page for Reynholm Industries from the IT crowd designed to practice flexbox and grid in CSS. Uses screenshots from YouTube and images from the IT Crowd Fan Wiki.", "27 Nov 2020", "28 Nov 2020");
+pushNewInfo("Sentence Assesser", "https://patricklang87.github.io/js_assess_2/", "Inspired by Sakai's autoscoring functions, this is an effort to write a program that can autoscore narrow-scope short-answer language questions according to spelling and word order. Written in JS. I am still debugging this program.", "Oct 2020", "Dec 08 2020");
 
-pushNewInfo("Sentence Assesser", "tbd", "An adaptation of Levenstein Distance, meant to calculate the minimum number word order changes needed in order to match a given form. Part of a project to design an automatic sentence scoring program. Written in Python. Link not yet available.", "Oct 2020", "Oct 2020");
+pushNewInfo("Reynholm Industries", "https://patricklang87.github.io/reynholm/", "A static welcome page for Reynholm Industries from the IT crowd designed to practice flexbox and grid in CSS. Uses screenshots from YouTube and images from the IT Crowd Fan Wiki.", "27 Nov 2020", "28 Nov 2020");
 
 pushNewInfo("Vocab List Builder", "tbd", "A simple program that allows vocab words to be added to a database and then tested. Written in JavaScript to practice JSON, node.js, and database construction. Link not yet available.", "Sept 2020", "Sept 2020")
 

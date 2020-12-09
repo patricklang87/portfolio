@@ -56,7 +56,6 @@ body {
     padding: 1rem;
     margin: 1rem;
     max-width: 310px;
-    min-width: 270px;
 }
 
 .grid-item p {
@@ -89,9 +88,16 @@ a {
     color: inherit;
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 470px) {
+    #linkDiv {
+        width: 100%;
+    }
+
     .grid-item {
-        padding: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
     }
 }
 
