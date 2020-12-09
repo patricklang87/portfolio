@@ -62,14 +62,21 @@ body {
     font-size: .75rem;
 }
 
-#footer {
-    text-align: right;
-    color: grey    
+footer {
+    color: antiquewhite;  
+    background-color: hotpink;
+    height: 100px;  
+    padding-right: 20px;
+    display: flex;
+    justify-content: right;
+    align-content: center;
 }
+
+
 
 .heading {
     font-family: 'Alfa Slab One', cursive;
-    color: antiquewhite 
+    color: antiquewhite; 
 }
 
 h2 {
