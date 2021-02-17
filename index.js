@@ -12,7 +12,9 @@ let pushNewInfo = (title, link, info, startDate, lastUpdate) => {
 	projArray.push(new ProjInfo(title, link, info, startDate, lastUpdate)); 
 }
 
-pushNewInfo("Meteor Jumper", "https://patricklang87.github.io/hat_game/", "A browser deployment of Codecademy's console game 'Find your hat'. I've given it a sci-fi twist.", "Jan 23 2021", "Jan 22 2021");
+pushNewInfo("Meta TicTacToe", "https://patricklang87.github.io/meta_tictactoe/", "Written to practice react, an adaptation of React's simple tictactoe tutorial.", "Feb 13 2021", "Feb 16 2021");
+
+pushNewInfo("Meteor Jumper", "https://patricklang87.github.io/hat_game/", "A browser deployment of Codecademy's console game, 'Find your hat'. I've given it a sci-fi twist.", "Jan 23 2021", "Jan 31 2021");
 
 pushNewInfo("Sentence Assesser", "https://patricklang87.github.io/js_assess_2/", "Inspired by Sakai's autoscoring functions, this is an effort to write a program that can autoscore narrow-scope short-answer language questions according to spelling and word order. Written in JS. I am still debugging this program.", "Oct 2020", "Dec 24 2020");
 
