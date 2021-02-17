@@ -55,7 +55,7 @@ body {
     min-height: 2rem;
     padding: 1rem;
     margin: 1rem;
-    max-width: 310px;
+    /* max-width: 310px; */
 }
 
 .grid-item p {
@@ -101,10 +101,15 @@ a {
     }
 
     .grid-item {
-        width: 100%;
         margin-left: 0;
         margin-right: 0;
-        max-width: 100%;
+    }
+
+    .grid-item h1,
+    .grid-item h2,
+    .grid-item p {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
