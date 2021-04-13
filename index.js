@@ -12,6 +12,8 @@ let pushNewInfo = (title, link, info, startDate, lastUpdate) => {
 	projArray.push(new ProjInfo(title, link, info, startDate, lastUpdate)); 
 }
 
+pushNewInfo("Learn Your Flags", "https://patricklang87.github.io/flagsFlashCars/", "Test and build your knowledge of country and territory flags. Practices React-Redux and React Routers using the restcountries.eu API.", "Feb 19 2021", "Feb 22 2021");
+
 pushNewInfo("TicTacToe 3D", "https://patricklang87.github.io/tictactoe_3d/", "Another take on TicTacToe. Written to practice React and explore CSS's 3D capabilities.", "Feb 19 2021", "Feb 22 2021");
 
 pushNewInfo("Meta TicTacToe", "https://patricklang87.github.io/meta_tictactoe/", "Written to practice react, an adaptation of React's simple tictactoe tutorial.", "Feb 13 2021", "Feb 16 2021");
